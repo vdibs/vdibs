@@ -13,6 +13,14 @@ class Project extends Component {
 
 		var twenty = "Recreated the game 2048 in java.";
 
+		var arrP = ["React", "JS", "HTML", "CSS"];
+
+		var arrAct = ["React", "JS", "HTML", "CSS", "Google Analytics"];
+
+		var arrWP = ["WordPress API", "PHP", "JS", "HTML", "SCSS"];
+
+		var arr2 = ["Java", "Java GUI"];
+
 		return (
 			<div>
 				<p className="linked">Projects</p>
@@ -21,25 +29,25 @@ class Project extends Component {
 					time="Winter 2017"  
 					company="This site + The Old Version" 
 					description={description} 
-					skill='React | JS | HTML | CSS' />
+					skill={arrP} />
 				</a>
 				<a href="https://gentle-springs-89276.herokuapp.com/">
 				<ProjectObject
 					time="Fall 2016" 
 					company="Actemotion"  
 					description={act} 
-					skill='React | JS | HTML | CSS | Google Analytics' />
+					skill={arrAct} />
 				</a>
 				<ProjectObject 
 					time="Summer 2016"  
 					company="WordPress Plugin: Recent Related Posts" 
 					description={wordpress} 
-					skill='WordPress API | PHP | JS | HTML | SCSS' />
+					skill={arrWP} />
 				<ProjectObject 
 					time="Winter 2016"  
 					company="2048" 
 					description={twenty} 
-					skill='Java | Java GUI' />
+					skill={arr2} />
 				<div className="timeline"></div> 
 				<a 
 					href="https://docs.google.com/a/ucsd.edu/document/d/1uXYQSxyApiBn4YlyilhEBaNWTyy7GoiLNjElhbUk1tc/edit?usp=sharing" 

@@ -11,6 +11,12 @@ class Work extends Component {
 
 		var williamD = "Developed investors.com with WordPress and built a Recent Related Posts plugin with the WordPress API.";
 
+		var arrTBD = ["TBD"];
+
+		var arrTMS = ["Batch Script", "CI", "TeamCity", "Unit Testing"];
+
+		var arrWO = ["WordPress", "PHP", "HTML", "CSS", "JS"];
+
 		return (
 			<div className="workContainer">
 			<link href='https://fonts.googleapis.com/css?family=Noto+Serif|Inconsolata:400,700|Bitter'
@@ -22,14 +28,14 @@ class Work extends Component {
 					company="TBD" 
 					position="TBD" 
 					description={summerD} 
-					skill="TBD"  />
+					skill={arrTBD}  />
 				<a href="http://trumedsystems.com">
 					<WorkObject 
 						time="Winter Spring 2017" 
 						company="TruMed Systems" 
 						position="Software Engineer + Quality Assurance Intern" 
 						description={truMedD}
-						skill="Batch File | CI | TeamCity | Unit Testing" />
+						skill={arrTMS}/>
 				</a>
 				<a href="http://investors.com">
 					<WorkObject
@@ -37,7 +43,7 @@ class Work extends Component {
 						company="William O'Neil: Investors Business Daily" 
 						position="Web Development Intern" 
 						description={williamD}
-						skill="WordPress | PHP | HTML | SCSS"  /> 
+						skill={arrWO}  /> 
 				</a>
 				<div className="timeline"></div> 
 				<a 

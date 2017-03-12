@@ -17,7 +17,9 @@ class ProjectObject extends Component {
 					<div className="workBody">
 						<p className="company">{this.props.company}</p> 
 						<p className="description">{this.props.description}</p> 
-						<p className="skill">{this.props.skill}</p> 
+						{this.props.skill.map(function(skill, index) {
+							return <p className="skill">{skill}</p>
+						})}
 			    	</div>  
 				</div> 
 			</div>
