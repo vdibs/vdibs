@@ -90,10 +90,23 @@ div .workGrid.container {
   color: orange; 
   font-family: 'Inconsolata', sans-serif;
   border: solid;
-  border-width: thin;
+  border-width: 1.9px;
   border-color: orange;
-  padding: 2px 4px 2px 4px;
+  padding: 4px 6px 4px 6px;
   border-radius: 3px; 
+}
+
+.skill {   
+  color: #656565;
+  font-family: 'Inconsolata', sans-serif;
+  border: solid;
+  border-width: thin;
+  padding: 2px 6px 2px 6px;
+  border-radius: 3px; 
+  margin-right: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
 }
 
 .quarter {

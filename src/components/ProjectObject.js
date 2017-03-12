@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 class ProjectObject extends Component {
 
 	render() {
+
 		return (
 			<div>
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"></link>
@@ -15,7 +16,8 @@ class ProjectObject extends Component {
 					</div> 
 					<div className="workBody">
 						<p className="company">{this.props.company}</p> 
-						<p className="description">{this.props.description}</p>
+						<p className="description">{this.props.description}</p> 
+						<p className="skill">{this.props.skill}</p> 
 			    	</div>  
 				</div> 
 			</div>

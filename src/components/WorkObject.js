@@ -17,6 +17,7 @@ class WorkObject extends Component {
 					<p className="company">{this.props.company}</p>
 					<p className="position">{this.props.position}</p>
 					<p className="description">{this.props.description}</p>
+					<p className="skill">{this.props.skill}</p>
 			    </div>  
 			</div> 
 			</div>

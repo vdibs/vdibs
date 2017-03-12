@@ -21,20 +21,23 @@ class Work extends Component {
 					time="Summer 2017" 
 					company="TBD" 
 					position="TBD" 
-					description={summerD}/>
+					description={summerD} 
+					skill="TBD"  />
 				<a href="http://trumedsystems.com">
 					<WorkObject 
 						time="Winter Spring 2017" 
 						company="TruMed Systems" 
 						position="Software Engineer + Quality Assurance Intern" 
-						description={truMedD}/>
+						description={truMedD}
+						skill="Batch File | CI | TeamCity | Unit Testing" />
 				</a>
 				<a href="http://investors.com">
 					<WorkObject
 						time="Summer 2016" 
 						company="William O'Neil: Investors Business Daily" 
 						position="Web Development Intern" 
-						description={williamD}/> 
+						description={williamD}
+						skill="WordPress | PHP | HTML | SCSS"  /> 
 				</a>
 				<div className="timeline"></div> 
 				<a 
