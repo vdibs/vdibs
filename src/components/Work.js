@@ -5,7 +5,7 @@ import WorkObject from './WorkObject';
 class Work extends Component {
 	render() {
 
-		var summerD = "I'm on the hunt for a Summer 2017 Internship.";
+		var summerD = "Incoming software engineering intern.";
 
 		var truMedD = "I support the software for the Accuvax.";
 
@@ -22,13 +22,15 @@ class Work extends Component {
 			<link href='https://fonts.googleapis.com/css?family=Noto+Serif|Inconsolata:400,700|Bitter'
             rel='stylesheet'
             type='text/css' />
-				<p className="linked">Work</p>
-				<WorkObject 
-					time="Summer 2017" 
-					company="TBD" 
-					position="TBD" 
-					description={summerD} 
-					skill={arrTBD}  />
+				<h2 className="linked">Work</h2>
+				<a href="http://truecar.com">
+					<WorkObject 
+						time="Summer 2017" 
+						company="TrueCar" 
+						position="Software Engineer Intern" 
+						description={summerD} 
+						skill={arrTBD}  />
+				</a>
 				<a href="http://trumedsystems.com">
 					<WorkObject 
 						time="Winter Spring 2017" 

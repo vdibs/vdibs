@@ -21,13 +21,15 @@
   /* or Bitter font */  
 }
 
-.bio {  
-  font-weight: bold;
+.bio {   
+  font-weight: bold;  
+  padding: 0;
+  margin-top: 0px;
   margin-bottom: 25px;
+  font-size: 16px;
+  font-family: 'Inconsolata', sans-serif;
 }
-
-.toolbar {
-}
+ 
 
 .linkTo {
   color: black;
@@ -38,9 +40,20 @@
 }
 
 .linked {  
+  padding: 0;
+  margin-top: 0;
   font-weight: bold; 
   margin-left: 11px;
   margin-bottom: 25px;
+  font-size: 16px;
+  font-family: 'Inconsolata', sans-serif;
+
+}
+
+.self { 
+  display: inline-block;
+  right: 0px;
+  height: 120px;
 }
 
 /*************** WORK + PROJECT ******************/
@@ -82,6 +95,7 @@ div .workGrid.container {
   border-radius: 100%; 
   vertical-align: top; 
   margin-left: 5px;
+  text-decoration: none;
 }
  
 .resume { 
@@ -171,6 +185,7 @@ div .show-grid.col-lg-4.col-md-4.col-sm-4.col-xs-12, div .show-grid.col-lg-8.col
   text-decoration: underline;
   font-size: 18px;
 }
+
 
 /*********** ELEMENT TYPES *************/
 

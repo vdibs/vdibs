@@ -1,6 +1,10 @@
 import React, {Component} from 'react'; 
 
 class ProjectObject extends Component {
+	constructor() {
+		super(); 
+	}
+ 
 
 	render() {
 

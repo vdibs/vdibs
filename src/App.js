@@ -4,6 +4,8 @@ import { Grid, Col, Row } from 'react-bootstrap';
 import Work from './components/Work';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import Self from './self.jpeg';
+import Link from 'react-router-dom';
 
 class App extends Component {
 
@@ -70,7 +72,8 @@ class App extends Component {
         <Grid><Row className="show-grid">
         <Col className="col" sm={4} md={4} xs={12} lg={4} className="show-grid">
           <div className="intro">  
-            <p className="bio">Bio</p>
+           
+            <h2 className="bio">Bio</h2>
             <p>Hi, I&rsquo;m Valentina Dibs - a 3rd year at UC San Diego where I study Computer Science and Cognitive Science with a specialization in HCI.</p>
             <p>I love to create (code, sing, knit, sew), listen to podcasts (NPR politics + Ted Radio Hour), read (just started The Jungle), and exercise (started weight-lifting last year).</p> 
           </div>

@@ -6,7 +6,17 @@ class Contact extends Component {
 	render() {
 		return (
 			<div className="contact">
-				<p className="linked">Contact</p>
+				<h2 className="linked">Contact</h2>
+				
+				<a 
+					className="contactLink"
+					href="https://docs.google.com/a/ucsd.edu/document/d/1uXYQSxyApiBn4YlyilhEBaNWTyy7GoiLNjElhbUk1tc/edit?usp=sharing" >
+						<FontAwesome 
+							className="icon"
+							name='pencil-square' 
+							size='2x' />
+						<p className="iconName">Resume</p>
+				</a>
 				<a 
 					className="contactLink"
 					href="https://www.linkedin.com/in/valentina-dibs/">
