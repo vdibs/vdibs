@@ -18,6 +18,7 @@
   font-family: 'Bitter', serif;
   margin-left: 25px;
   text-align: center;
+  cursor: pointer;
   /* or Bitter font */  
 }
 
@@ -76,7 +77,8 @@ div.work {
   margin-bottom: 10px;
 }
 
-div .workGrid.container {
+.companyImage {
+  width: 10vw;
 }
 
 .workBody {
@@ -105,7 +107,7 @@ div .workGrid.container {
  
 .resume { 
   color: orange; 
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Inconsolata', sans-serif;
   border: solid;
   border-width: 1.9px;

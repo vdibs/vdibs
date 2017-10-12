@@ -9,8 +9,7 @@ class Home extends Component {
 			<div className="homeContainer">
                 <h1>Hello!</h1>
                 <h2>I&rsquo;m Valentina Dibs.</h2>
-                <Col sm={2} md={2} lg={2}/>
-                <Col sm={8} md={8} lg={8}>
+                <Col sm={8} smOffset={2} md={8} mdOffset={2} lg={8} lgOffset={2}>
                     <p style={{paddingTop: 20}}>
                         I am a 4th year at UC San Diego where I study Computer Science and Cognitive Science with a
                         specialization in HCI.
@@ -24,7 +23,6 @@ class Home extends Component {
                         (NPR politics + Ted Radio Hour), read (currently reading Song of Solomon), and exercise (bouldering and weight lifting).
                     </p>
                 </Col>
-                <Col sm={2} md={2} lg={2}/>
 
 			</div>
 		);
