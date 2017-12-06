@@ -36,9 +36,7 @@ class App extends Component {
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"
         />
-        <h1 className="name" onClick={() => this.setState({ show: Home })}>
-          Valentina Dibs
-        </h1>
+        <h1 className="name" onClick={() => this.setState({ show: Home })}>Valentina Dibs</h1>
         <hr />
         <Grid>
           <Row>

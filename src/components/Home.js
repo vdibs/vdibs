@@ -20,7 +20,7 @@ class Home extends Component {
                     </p>
                     <p style={{paddingTop: 20, paddingBottom: 20}}>
                         I&rsquo;m also a hobbyist. I love to create (code, sing, knit, sew), listen to podcasts
-                        (NPR politics + Ted Radio Hour), read (currently reading Song of Solomon), and exercise (bouldering and weight lifting).
+                        (NPR politics + Ted Radio Hour), read (just started One Hundred Years of Solitude), and exercise (bouldering and weight lifting).
                     </p>
                 </Col>
 
