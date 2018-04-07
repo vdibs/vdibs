@@ -37,42 +37,32 @@ class App extends Component {
           href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"
         />
         <h1 className="name" onClick={() => this.setState({ show: Home })}>Valentina Dibs</h1>
-        <hr />
-        <Grid>
-          <Row>
-            <Col xs={4} sm={4} md={4} lg={4}>
-              <a
-                href="#"
-                className="linkTo"
-                onClick={() => this.setState({ show: Work })}
-                style = { Component === Work ? selected : {} }
-              >
-                Work
-              </a> 
-            </Col>
-            <Col xs={4} sm={4} md={4} lg={4}>
-              <a
-                href="#"
-                className="linkTo"
-                onClick={() => this.setState({ show: Project })}
-                style = { Component === Project ? selected : {} }
-              >
-                Projects
-              </a>
-            </Col>
-            <Col xs={4} sm={4} md={4} lg={4}>
-              <a
-                href="#"
-                className="linkTo"
-                onClick={() => this.setState({ show: Contact })}
-                style = { Component === Contact ? selected : {} }
-              >
-                Contact
-              </a>
-            </Col>
-          </Row>
-        </Grid>
-        <hr style={{top:-10}}/>
+        <div className="toolbar">
+          <a
+            href="#"
+            className="linkTo"
+            onClick={() => this.setState({ show: Work })}
+            style = { Component === Work ? selected : {} }
+          >
+            Work
+          </a> 
+          <a
+            href="#"
+            className="linkTo"
+            onClick={() => this.setState({ show: Project })}
+            style = { Component === Project ? selected : {} }
+          >
+            Projects
+          </a>
+          <a
+            href="#"
+            className="linkTo"
+            onClick={() => this.setState({ show: Contact })}
+            style = { Component === Contact ? selected : {} }
+          >
+            Contact
+          </a>
+        </div>
         <Component /> 
       </div>
     );

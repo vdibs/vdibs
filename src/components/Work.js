@@ -14,17 +14,10 @@ class Work extends Component {
 				/>
 				{workData.map((obj, ind) => {
 						return (
-							<a href={obj.href}>
 							<WorkObject key={ind} {...obj} />
-						</a>
 						)
 					})
 				}
-				<a 
-					href="https://docs.google.com/a/ucsd.edu/document/d/1uXYQSxyApiBn4YlyilhEBaNWTyy7GoiLNjElhbUk1tc/edit?usp=sharing" 
-					className="resume">
-						Resume
-				</a>
 			</div>
 		);
 	}

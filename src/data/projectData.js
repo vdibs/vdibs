@@ -1,4 +1,17 @@
-export default [
+export default [ 
+    {
+        time: "Winter 2018",  
+        company: "flashback music",
+        description: "An Android app made during CSE 110 - an app that plays music downloaded from an online database and dynamically creates a flashback playlist based on friends and user's activity.",
+        skill: ["Java", "Android", "Android Studio", "Firebase"],
+    },
+    {
+        time: "Fall 2017",  
+        company: "dt_rnn",
+        description: "A final project for COGS 181 - a small recurrent neural network that reads Trump tweets sourced from the Trump Twitter Archive and produces tweets based on the data.",
+        skill: ["Python", "Jupyter Notebook", "charr-rnn-tensorflow", "torch-rnn"],
+        href: "https://github.com/vdibs/dt_rnn",
+    },
     {
         time: "Summer 2017",  
         company: "prototypr",
