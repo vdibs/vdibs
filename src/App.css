@@ -1,9 +1,17 @@
 .App {  
   height: 100vh;
   font-size: 90%;
-  padding-top: 20px;
 }
- 
+
+.heading {
+  background-color: white;
+  background: white;
+  padding-top: 20px;
+  z-index: 10000;
+  position: fixed;
+  width: 100%;
+} 
+
 .intro { 
   margin-bottom: 30px;
 }
@@ -15,21 +23,31 @@
   border-color: black;
 }
 
-.toolbar {
-  padding-top: 5%;
+.toolbar { 
   text-align: center;
+  background-color: white;
+  z-index: 100000;
+  padding-top: 20px;
+}
+
+.toolbar-separator {
+  border-color: darkgray;
+  width: 70%;
+  margin-bottom: 0;
 }
 
 .name { 
   font-family: 'Bitter', serif;
   text-align: center;
-  cursor: pointer;
   padding-top: 2%;
+  color: black;
+  padding-bottom: 3%;
+  text-decoration: none;
   /* or Bitter font */  
 }
 
 .homeContainer {
-  padding: 5% 30px 35px 30px; 
+  padding: 8% 30px 35px 30px; 
   font-family: 'Inconsolata', sans-serif;
 }
 
@@ -42,11 +60,14 @@
 }
 
 .headshotImg {
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 
 .headshotContainer {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .linkTo {
@@ -105,6 +126,10 @@ div.work {
 
 .companyImage {
   width: 10vw;
+}
+
+.workCol {
+  padding-bottom: 20px;
 }
 
 .workBody {
@@ -204,6 +229,21 @@ div .show-grid.col-lg-4.col-md-4.col-sm-4.col-xs-12, div .show-grid.col-lg-8.col
   text-decoration: underline;
 }
 
+/*******/
+
+.page-separator {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width:70%;
+  border-color: darkgray;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 80px;
+  text-decoration: underline;
+  font-size: 180%;
+}
 
 /*********** ELEMENT TYPES *************/
 
@@ -216,3 +256,7 @@ h2 {
   font-family: 'Inconsolata', sans-serif;
 }
    
+a, a:active {
+  text-decoration: none;
+  color: black;
+}

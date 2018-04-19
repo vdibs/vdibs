@@ -6,7 +6,8 @@ class Contact extends Component {
 
 	render() {
 		return (
-			<div className="contactContainer">
+			<div className="contactContainer" id={this.props.id}>
+			<div  className="page-title">Contact</div>
 			<p>Let's connect!</p>
 			<Grid>
 				<Row>

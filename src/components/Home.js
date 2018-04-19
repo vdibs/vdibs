@@ -1,20 +1,24 @@
 import React, { Component } from 'react'; 
 import '../App.css';
 import { Col, Row } from "react-bootstrap";
+import Work from './Work.js';
+import Project from './Project.js';
+import Contact from './Contact.js';
 
 class Home extends Component {
 	render() {
 
 		return (
 			<div className="homeContainer">
+                
                 <Row>
-                    <Col xs={1} sm={1} md={1} lg={1}  />
+                    <Col xs={0} sm={0} md={1} lg={1}  />
                     <Col className="headshotContainer" xs={12} sm={12} md={3} lg={3} >
-                        <div className="headshot" />
                         <img className="headshotImg" alt={"headshot"} src={require('../img/head.jpg')} width={200} height={200}/>
                     </Col>
                     <Col xs={12} sm={12} md={7}lg={7}>
                         <p className="greeting">Hello! I&rsquo;m Valentina Dibs.</p>
+                        
                         <p style={{paddingTop: 5}}>
                             I am a 4th year at UC San Diego where I study Computer Science and Cognitive Science with a
                             specialization in HCI.
@@ -28,9 +32,15 @@ class Home extends Component {
                             (NPR politics + Ted Radio Hour), read (just started One Hundred Years of Solitude), and exercise (bouldering and weight lifting).
                         </p>
                     </Col>
-                    <Col xs={1} sm={1} md={1} lg={1}  />
-                </Row>
-
+                    <Col xs={0} sm={0} md={1} lg={1}  />
+                </Row> 
+                <hr id="work-page" className="page-separator" />
+                <Work />
+                <hr id="project-page" className="page-separator" />
+                <Project />
+                <hr className="page-separator"id="contact-page"  />
+                <Contact />
+                <hr style={{borderColor: "white"}} />
 			</div>
 		);
 	}

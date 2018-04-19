@@ -7,7 +7,8 @@ class Project extends Component {
 	render() {
 		
 		return (
-			<div className="projectContainer">
+			<div className="projectContainer" id={this.props.id}>
+				<div  className="page-title">Projects</div>
 				{projectData.map((obj, index) => { 
 					return <ProjectObject key={index} {...obj} />
 				})}

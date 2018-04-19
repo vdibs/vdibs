@@ -14,7 +14,7 @@ class ProjectObject extends Component {
         <Grid>
 					<Row>	
             <Col xs={12} sm={1} md={1} lg={1} />	
-            <Col  xs={12} sm={2} md={2} lg={2}>
+            <Col className="workCol" xs={12} sm={2} md={2} lg={2}>
               <div className="workInfo">
                 <p  className="quarter">{this.props.time}</p>
               </div>

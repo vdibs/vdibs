@@ -6,7 +6,8 @@ import workData from '../data/workData';
 class Work extends Component {
 	render() {
 		return (
-			<div className="workContainer">
+			<div className="workContainer" id={this.props.id}>
+			<div  className="page-title">Work</div>
 				<link 
 					href='https://fonts.googleapis.com/css?family=Noto+Serif|Inconsolata:400,700|Bitter'
 					rel='stylesheet'
