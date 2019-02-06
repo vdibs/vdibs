@@ -17,7 +17,7 @@ class Home extends Component {
                         <img className="headshotImg" alt={"headshot"} src={require('../img/head.jpg')} width={200} height={200}/>
                     </Col>
                     <Col xs={12} sm={12} md={7}lg={7}>
-                        <p className="greeting">Hello! I&rsquo;m Valentina Dibs.</p>
+                        <p className="greeting">Hello! I&rsquo;m Valentina Dibs. Hello world.</p>
                         
                         <p style={{paddingTop: 5}}>
                             I am a 4th year at UC San Diego where I study Computer Science and Cognitive Science with a
